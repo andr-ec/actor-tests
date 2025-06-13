@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:actor-tests}/swift-benchmark",
+      "name": "Debug swift-benchmark (swift-benchmark)",
+      "program": "${workspaceFolder:actor-tests}/swift-benchmark/.build/debug/swift-benchmark",
+      "preLaunchTask": "swift: Build Debug swift-benchmark (swift-benchmark)"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:actor-tests}/swift-benchmark",
+      "name": "Release swift-benchmark (swift-benchmark)",
+      "program": "${workspaceFolder:actor-tests}/swift-benchmark/.build/release/swift-benchmark",
+      "preLaunchTask": "swift: Build Release swift-benchmark (swift-benchmark)"
+    }
+  ]
+}

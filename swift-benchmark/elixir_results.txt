@@ -1,0 +1,45 @@
+=== Elixir Actor Benchmark Results ===
+Date: Thu Jun 12 23:37:55 MDT 2025
+
+=== Elixir Actor Scaling Test ===
+
+--- Testing with 1_000 processes ---
+Starting benchmark with 1_000 processes...
+✓ Created 1_000 processes in 1.977ms
+Memory usage: 61.31 MB
+✓ Sent and received 1_000 messages in 1.343ms
+Average response time per message: 0.001343ms
+✓ Cleaned up all processes
+Processes created per second: 505_816
+Messages processed per second: 744_601
+
+--- Testing with 10_000 processes ---
+Starting benchmark with 10_000 processes...
+✓ Created 10_000 processes in 8.808ms
+Memory usage: 84.12 MB
+✓ Sent and received 10_000 messages in 12.512ms
+Average response time per message: 0.0012512ms
+✓ Cleaned up all processes
+Processes created per second: 1_135_331
+Messages processed per second: 799_232
+
+--- Testing with 100_000 processes ---
+Starting benchmark with 100_000 processes...
+✓ Created 100_000 processes in 84.269ms
+Memory usage: 313.03 MB
+✓ Sent and received 100_000 messages in 124.481ms
+Average response time per message: 0.00124481ms
+✓ Cleaned up all processes
+Processes created per second: 1_186_676
+Messages processed per second: 803_335
+
+--- Testing with 1_000_000 processes ---
+Starting benchmark with 1_000_000 processes...
+✓ Created 1_000_000 processes in 1237.433ms
+Memory usage: 2588.64 MB
+✓ Sent and received 1_000_000 messages in 2257.976ms
+Average response time per message: 0.002257976ms
+✓ Cleaned up all processes
+Processes created per second: 808_124
+Messages processed per second: 442_874
+

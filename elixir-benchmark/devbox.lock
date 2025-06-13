@@ -1,6 +1,10 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "darwin.apple_sdk.frameworks.CoreServices": {
+      "resolved": "github:NixOS/nixpkgs/8d6cdc7756817e0c4b24567271634a44bcf80752?narHash=sha256-ibsz06u1jlWyH7YURnRhLQn38Tuc5zwknr00suFjvfA%3D#darwin.apple_sdk.frameworks.CoreServices",
+      "source": "nixpkg"
+    },
     "elixir@latest": {
       "last_modified": "2024-12-27T03:08:00Z",
       "plugin_version": "0.0.1",
